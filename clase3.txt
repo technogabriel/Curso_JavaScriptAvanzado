@@ -1,0 +1,27 @@
+clase3:
+... -> hace una copia del objeto(DOM) spread operator
+
+Eventos de teclados / mouse / target:
+cuando se oprime el mouse -> onmouseup
+
+EVENT TARGET
+referencia al origen donde se lanza el evento
+
+Expresiones Regulares:
+son patrones utilizados para encontrar una determinada combinacion de caracteres dentro de una cadena de texto(o caracteres). En Js, las regex tambien son objetos. se utilizan con metodos.
+Probar expresiones regulares => https://regexr.com/
+
+teclas:
+https://www.toptal.com/developers/keycode
+
+\d = coincide caracter 0-9
+\D = coincide con un caracter NO numerico
+\s = coincide con un espacion entre los que se encuentran los saltos de pag tabulaciones y saltos
+
+posicionadores:
+^ coincide con el principio de l string
+$ coincide con el final del string
+\b coincide con el limite de un string
+
+regex para probar dni:
+^[0-9]{1,3}\.?[\d]{3,3}\.?[\d]{3,3}$/
