@@ -1,0 +1,59 @@
+Asincronia y Sincronia y Objeto xml httprequest
+ASYNC vs SYNC:
+AJAX: nos permite comunicarnos con otros servidores.No es una tecnologia por si misma, es un termino que describe un nuevo modo de utilizar conjuntamente varias tecnologias existentes. Esto incluye HTML XHTML, CSS Js, DOM, XML, XSLT y el objeto XMLHttpRequest. Cuando estas tecnologias se combinan con ajax, es posible lograr aplicaciones web capaces de actualizarse continuamente sin tener que volver a cargar la pàgina completa.
+
+la asincronia es uno de los pilares fundamentales de js.
+Sincronias y bloqueantes: toda la operacion se hace de una vez, bloqueando el flujo de ejecucion:
+el thread es bloqueado mientras espera.
+
+js se ejecuta de arriba hacia abajo. es un lenguaje interpretado
+
+*event loop:
+single thread.
+js utiliza un modelo asincrono y no bloqueante, con un loop de eventos implementado con unico thread para sus interfaces de I/O.
+
+bucle de eventos:
+lopp de eventos: este modelo permite despachar mensajes en concurrencias con las tareas del programa.
+
+javascript visualizer:
+https://www.jsv9000.app/
+
+callback que se añade al loop debe esperar su turno.
+
+xml httprequest:
+es un objeto js que fue diseñado por microsoft y adoptado por mozilla, apple y google. Actualmente es un estandar de la W3C. Proporciona una forma facil de obtener informaciòn de una URL sin tener que cargar la pagina completa. A pesar de su nombre, XMLHttpRequest puede ser usado para recibir cualquier tipo de dato, no solo xml y admite otros formatos aademas de http(file y ftp).
+
+estados:
+0 -unsent -> objeto inicializado o crado
+1 Openend-> objeto configurado
+2 header received-> objeto ya se enviò y el status de los headers del servidor ya volvieron
+3 loading -> descargando. La propiedad responseText mantiene datos parciales
+4 Done -> la operacion se completo no necesariamente exitosa
+
+SPA & REST:
+SPA = single page application(un sitio web que cabe en una sola pagina)
+en un spa todos los codigos se carga de una vez. La pagina no tiene que cargar otra vez en ningun punto del proceso.
+pushState() pueden permitir la navegabilidad
+*pro:
+tiempo de carga(rapido)
+costos mas reducido
+facilidad de creacion de app
+menos ancho de banda
+*contras:
+no funciona bien el SEO
+utiliza gran cantidad de recurso
+rendimiento mas lento
+seguridad
+
+api web History
+state
+pushState = trabajar con sesiones del historial
+popState
+optimisc ui= optimizar la interfaz de usuario
+
+REST API
+
+
+
+
+
