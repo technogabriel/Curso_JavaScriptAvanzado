@@ -1,0 +1,20 @@
+API FETCH:
+credenciales: se puede ver como origin / include
+
+RESTFUL:
+hace referencia a una api que aplica la arquitectura rest.
+es una interfaz, donde dos sistemas se comunican para intercambiar informacion de manera segura.
+
+REST API:
+cuando se usa http las operaciones disponibles son GET,POST, PUT, DELETE y otros metodos HTTP CRUD predefinidos.
+URI = identificador de recursos uniformes
+Uso correcto de las URIs:
+URI de base / de cada recurso/ parametros de filtrado
+
+CORS:
+intercambio de recursos de origen cruzado(CORS). Mecanismo que utiliza encabezados adicionales HTTP para permitir que un user agent obtenga permiso para acceder a recursos seleccionados desde un servidor, en un origen distinto
+
+JSONP:
+JSON con padding : sintaxis similar a html
+
+
