@@ -1,0 +1,18 @@
+FETCH:
+responseType puede configurarse para cambiar el tipo de respuesta esperada del servidor.
+
+para la respuesta se puede usar(responseType):
+text() / arrayBuffer() / body
+ejemplo:
+fetch("https://jsonplaceholder.typicode.com/users")
+.then((response)=> response.text()/ response.arrayBuffer()/ response.body)
+
+Objeto BLOB representa un objeto tipo fichero de datos planos inmutables. los Blobs representan datos que no necesariamente se encuentran en un formato nativo de js. La interfaz File se basa en Blob, heredando y expandiendo funcionalidad de un blob para soportar archivos en el sistema del usuario.
+siempre primer argumento del blob tiene que ser un array[]
+
+DROG & DROP
+dataTranfer se usa para contener los datos que se arrastran
+FormData API:
+proporciona una forma de construir facilmente un conjunto de pares clave/valor que representan campos de formularios.
+
+
