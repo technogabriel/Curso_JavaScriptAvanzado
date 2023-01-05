@@ -1,0 +1,30 @@
+Promises:
+es usado para computaciones asincronas. representa un valor que puede estar disponible, ahora o nunca. Representa la terminacion o el fracaso eventual de una operacion asincrona.
+
+promises.then() == exito
+.catch() ==fallo
+
+Geolocation API
+api de geolocalizacion. Representa un objeto capaz de obtener programaticamente la posicion del dispositivo. Le da acceso al contenido web a la ubicacion del dispositivo.
+Un objeto con esta interfaz se obtiene utilizando la propiedad navigator.geolocation implementada por el objeto Navigator
+Contexto Seguro:
+esta funcion solo esta disponible en contextos seguros(https)
+Por razones de seguridad, cuando una web intenta acceder a la informacion de ubicacion se le notifica al usuario y se le solicita que conceda permiso. cada navegador tiene su propia politica.
+Para obtener la ubicacion actual, getCurrentPosition():
+navigator.geolocation.getCurrentPosition(function(position){
+console.log(position.coords.latitude,position,coords.longitude);
+});
+
+PROTOTIPOS:
+programacion orientada a objetos. Js es un lenguaje basado en prototipos. Ingreso la palabra clave class en E2015.
+En lo que a herencia se refiere, Js solo tiene una estructura: objetos. C/objeto tiene una propiedad privada(referida como su [[Prototype]]) que mantiene un enlace a otro objeto llamado su prototipo.
+para entrar al proto console.log(Objet._proto_); 
+
+POO:
+cuando se coloca el # significa que la propiedad es privada
+
+la propiedad this se usa para referenciar a la variables(idem java)
+
+metodos estaticos son llamados sin instanciar la clase
+
+
