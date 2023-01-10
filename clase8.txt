@@ -1,0 +1,12 @@
+CLOSURE:
+las funciones se ejecutan usando el alcance variable que estaba en efecto eran definidas, no el ambito de la variable que està en vigencia cuando se invocan.
+Tecnicamente todas las funciones Js son closures; son objetos y tienen un alcance cadena asociada a ellos.Cuando accede a una variable fuera de su contexto(?
+
+Function Factory => paradigma programacion funcional
+
+POO:
+Metodo clasico:
+Herencia=
+consideramos que dos objetos son instancias de la misma clase si ambps comparten el mismo prototipo, no necesariamente habiendo sido creados por el mismo constructor.Esto implica que si quisieramos acercarnos a recrear un modelo clasico de orientacion a objetos usando el paradigma de prototipos, considerariamos que la herencia implica unicamente conseguir que todos los objetos de una funcion constructora compartan el mismo prototipo. Por lo tanto, si queremos que una funcion constructora herede de otra y al mismo tiempo pueda compartir estas nuevas habilidades con sus propias instancias, tenemos que modificar su prototype de manera tal que creemos manualmente una cadena de herencia por prototipos.
+
+
