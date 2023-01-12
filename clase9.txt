@@ -1,0 +1,4 @@
+POLIMORFISMO:
+especia de anulacion de metodos de la clase Padre, en tiempo de ejecuciòn.
+IIFE:
+Expresion de funcion invocada inmediatamente o inmidiatly invocke function(?
