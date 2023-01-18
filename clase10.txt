@@ -1,0 +1,24 @@
+Patrones de diseño creacional:
+Se enfoca en manejar mecanismos de creacion de objetos, donde los mismo se crean de manera adecuada para la situacion.
+Constructor
+Factory
+Abstract
+Prototype
+Singleton
+Builder
+
+Estructural:
+Esta relacionada con la composicion de objetos e identifican formas simples de realizar relaciones entre diferentes objetos.
+Decorador
+Fachada(Facade)
+Flyweight
+Adaptor
+Proxy
+
+de Diseño de comportamiento:
+se centran en mejorar o simplificar la comunicacion entre objetos dispares en un sistema.
+Iterator
+Mediator
+Observer
+Visitor
+
